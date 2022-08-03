@@ -18,3 +18,18 @@ useLocation gives us access to a location object which has information about the
 ## useRouteMatch() hook:
 kind of similar to useLocation() hook but Not just about the URL but about some internally managed data React Router is aware of.
 
+## added a lazy loading to optimize production ready app
+with React.lazy and suspense component whichi is wrap around all component in App.js and having a fallback function 
+
+## deployin app to firebase 
+`npm run build` <br>
+A React Single Page Application is a "static website" only HTML CSS and JS
+<br>
+a static site host is needed <br>
+
+`npm install -g firebase-tools` <br>
+`firebase login` <br>
+`firebase init` <br>
+with sapce selecte the hosting option and press enter > use an existing project > use build name as public directory > configure as SPA y > setup automatic deploy with github <br>
+
+`firebase deploy`
